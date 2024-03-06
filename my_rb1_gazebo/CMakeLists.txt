@@ -8,7 +8,7 @@ project(my_rb1_gazebo)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  gazebo
+  gazebo_ros
   rospy
 )
 
@@ -104,7 +104,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES my_rb1_gazebo
-#  CATKIN_DEPENDS gazebo rospy
+#  CATKIN_DEPENDS gazebo_ros rospy
 #  DEPENDS system_lib
 )
 

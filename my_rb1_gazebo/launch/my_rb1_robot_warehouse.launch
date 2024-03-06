@@ -15,8 +15,8 @@
 		<arg name="verbose" value="true"/>
 	</include>
 
-	<!-- Spawn The Robot --> 
-     <param name="robot_description" command="cat '$(find my_rb1_description)/urdf/my_rb1_robot.urdf'" />
+    <!-- Spawn The Robot --> 
+    <param name="robot_description" command="cat '$(find my_rb1_description)/urdf/my_rb1_robot.urdf'" />
     
     <arg name="x" default="-0.4"/>
     <arg name="y" default="-1.4"/>
@@ -33,5 +33,5 @@
 
     <!-- Show in Rviz   -->
     <node name="rviz" pkg="rviz" type="rviz" />
-
+	
 </launch>
