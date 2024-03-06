@@ -56,14 +56,6 @@
             <visualize>true</visualize>
             <update_rate>20</update_rate>
             <ray>
-                <scan>
-                    <horizontal>
-                        <samples>720</samples>
-                        <resolution>1</resolution>
-                        <min_angle>-1.570796</min_angle>
-                        <max_angle>1.570796</max_angle>
-                    </horizontal>
-                </scan>
                 <range>
                     <min>0.20</min>
                     <max>10.0</max>
@@ -75,10 +67,6 @@
                     <stddev>0.01</stddev>
                 </noise>
             </ray>
-            <plugin name="gazebo_ros_head_hokuyo_controller" filename="libgazebo_ros_laser.so">
-                <topicName>/scan</topicName>
-                <frameName>sensor_laser</frameName>
-            </plugin>
         </sensor>
     </gazebo>
 
