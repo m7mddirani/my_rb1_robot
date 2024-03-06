@@ -67,12 +67,12 @@
                     <stddev>0.01</stddev>
                 </noise>
             </ray>
-            <!-- for task 3
+
                 <plugin name="gazebo_ros_head_hokuyo_controller" filename="libgazebo_ros_laser.so">
                     <topicName>/scan</topicName>
                     <frameName>sensor_laser</frameName>
                 </plugin>
-            -->
+            
         </sensor>
     </gazebo>
 
@@ -326,7 +326,6 @@
     </link> 
 
     <!-- Differential drive controller -->
-    <!-- For task 3
     <gazebo>
         <plugin filename="libgazebo_ros_diff_drive.so" name="differential_drive_controller">
             <alwaysOn>true</alwaysOn>
@@ -342,6 +341,5 @@
             <robotBaseFrame>base_link</robotBaseFrame>
         </plugin>
     </gazebo>
-    -->
 
 </robot>
