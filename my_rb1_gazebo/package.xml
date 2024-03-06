@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>my_rb1_gazebo</name>
+  <version>0.0.0</version>
+  <description>The my_rb1_gazebo package</description>
+  <maintainer email="user@todo.todo">user</maintainer>
+  <license>TODO</license>
+
+  <!-- Corrected Dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>gazebo_ros</build_depend> <!-- Changed from gazebo to gazebo_ros -->
+  <build_depend>rospy</build_depend>
+  <build_export_depend>gazebo_ros</build_export_depend> <!-- Changed from gazebo to gazebo_ros -->
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>gazebo_ros</exec_depend> <!-- Changed from gazebo to gazebo_ros -->
+  <exec_depend>rospy</exec_depend>
+  
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>
