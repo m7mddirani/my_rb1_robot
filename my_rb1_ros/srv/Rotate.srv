@@ -1,0 +1,5 @@
+# REQUEST
+int32 degrees
+---
+# RESPONSE
+string result
