@@ -56,6 +56,14 @@
             <visualize>true</visualize>
             <update_rate>20</update_rate>
             <ray>
+                <scan>
+                    <horizontal>
+                        <samples>720</samples> <!-- Number of rays -->
+                        <resolution>1</resolution>
+                        <min_angle>-1.570796</min_angle> <!-- -90 degrees -->
+                        <max_angle>1.570796</max_angle>  <!-- 90 degrees -->
+                    </horizontal>
+                </scan>
                 <range>
                     <min>0.20</min>
                     <max>10.0</max>
